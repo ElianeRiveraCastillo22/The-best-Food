@@ -1,0 +1,26 @@
+@media (width >= 540px) {
+    .infoPage {
+        flex-direction: row;
+    }
+    .infoPage__textContainer {
+        align-items: flex-start;
+    }
+    .infoPage__textContainer > h1 {
+        text-align: start;
+    }
+    .infoPage__textContainer > p {
+        text-align: start;
+    }
+    .infoPage__hero {
+        width: 50%;
+    }
+    .infoPage__textContainer {
+        width: 50%;
+    }
+    .ourServises__multimedia {
+        grid-template-columns: repeat(4,1fr);
+    }
+    .ourServises, .homeMenu,.infoPage {
+        padding: 4rem;
+    }
+}
